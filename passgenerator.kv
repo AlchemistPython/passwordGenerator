@@ -1,0 +1,13 @@
+#:kivy 1.0.9
+<Grid>:
+    GridLayout:
+        cols:1
+        size:root.width,root.height
+        GridLayout:
+            cols:2
+            Label:
+                text:"New Password"
+            TextInput:
+                multiline:False
+    Button:
+        text:"Generate"
